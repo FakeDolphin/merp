@@ -26,13 +26,3 @@ class ResUsers(models.Model):
     allow_to_change_force_source_location = fields.Boolean(
         string='Allow to change Force Source Location',
     )
-
-    package_management = fields.Boolean(
-        string='Package Management',
-    )
-
-    external_transfers = fields.Boolean(
-        string='External transfers',
-    )
-
-    putaway = fields.Boolean()
